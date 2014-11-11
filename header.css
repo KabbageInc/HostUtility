@@ -1,0 +1,32 @@
+body.popup_ {
+    font-family: sans-serif;
+    width: 400px;
+    padding: 5px;
+}
+
+div.pad5 {
+    padding: 5px;
+}
+
+div.bold {
+    font-weight: bold;
+}
+
+input.headerName {
+    min-width: 180px !important;;
+}
+
+span.link {
+     cursor:pointer;
+     color:blue;
+     text-decoration:underline;
+}
+
+span.link:hover {
+     text-decoration:none;
+     text-shadow: 1px 1px 1px #555;
+}
+
+span.add-on {
+    min-width: 150px !important;
+}
