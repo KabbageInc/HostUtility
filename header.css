@@ -10,23 +10,44 @@ div.pad5 {
 
 div.bold {
     font-weight: bold;
+	padding-bottom:5px;
 }
 
 input.headerName {
-    min-width: 180px !important;;
+    min-width: 180px !important;
 }
 
 span.link {
-     cursor:pointer;
-     color:blue;
-     text-decoration:underline;
+     cursor: pointer;
+     color: blue;
+     text-decoration: underline;
+	 display: inline-block;
+	 width: 27px;
+	 margin-left: 5px;
 }
 
 span.link:hover {
-     text-decoration:none;
-     text-shadow: 1px 1px 1px #555;
+     color: #a6bc09;
 }
 
-span.add-on {
-    min-width: 150px !important;
+input#newtab {
+	margin-top: 0;
+	margin-right: 5px;
+}
+
+div.partner-dropdown {
+	margin-top: 8px;
+	width: 225px;
+	margin-bottom: 4px;
+}
+
+select.headerName {
+	margin-bottom: 0;
+	width: 153px;
+}
+
+span.partner-title {
+	display: inline-block;
+	margin-right: 12px;
+	margin-left: 2px;
 }
